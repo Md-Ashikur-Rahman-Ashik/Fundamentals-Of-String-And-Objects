@@ -1,4 +1,4 @@
-const age = 21;
+// const age = 21;
 const school = "IPSC";
 const isPassed = true;
 let isDeveloper;
@@ -33,7 +33,25 @@ const person = {
     age: 25,
     profession: "Developer",
     salary: 25000,
-    isMarried: false
+    isMarried: false,
+    "Favorite places": ["Palestine", "Afganistan", "Saudi Arabia"]
 }
 
+person.salary = 30000;
+person["age"] = 26;
+person["Favorite places"] = ["Palestine", "Turkiye", "South Africa"];
+
+// console.log(person.profession);
+// const salary = person.salary;
+// console.log(salary);
+// console.log(person["age"]);
+// const age = person["age"];
+// console.log(age);
+// console.log(person["Favorite places"]);
+
+const keyName = "profession"
+// console.log(person[keyName]);
+
+const propName = "profession"
+person[propName] = "DevOps"
 console.log(person);
