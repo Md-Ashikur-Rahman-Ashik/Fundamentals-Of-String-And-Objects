@@ -27,3 +27,13 @@ const subject = {
         marks: 100
     }
 }
+
+const person = {
+    name: "Al Sahaf Sifat",
+    age: 25,
+    profession: "Developer",
+    salary: 25000,
+    isMarried: false
+}
+
+console.log(person);
