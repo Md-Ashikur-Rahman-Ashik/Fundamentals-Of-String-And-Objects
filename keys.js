@@ -6,7 +6,7 @@ const computer = {
     monitor: "SkyView"
 }
 
-const keys = Object.keys(computer);
+// const keys = Object.keys(computer);
 // console.log(keys);
 
 const values = Object.values(computer);
@@ -46,7 +46,13 @@ const mobile = {
     isNew: true
 }
 
-for(const prop in mobile){
-    console.log(prop);
-    console.log(mobile[prop]);
+// for(const prop in mobile){
+//     console.log(prop);
+//     console.log(mobile[prop]);
+// }
+
+const keys = Object.keys(mobile);
+console.log(keys);
+for(const key of keys){
+    console.log(key, ":", mobile[key]);
 }
