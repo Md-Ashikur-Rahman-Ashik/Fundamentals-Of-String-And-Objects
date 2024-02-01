@@ -28,4 +28,25 @@ const college = {
 // console.log(college.name);
 // console.log(college.specialty);
 // console.log(college.specialty.color);
-console.log(college);
+// console.log(college.specialty.result);
+college.specialty.result.merit = "Top Top Top Most";
+// console.log(college.specialty.result.merit);
+
+// console.log(college.events);
+college.events[1] = "16th December";
+// console.log(college.events[1]);
+delete college.class;
+// console.log(college);
+
+const mobile = {
+    brand: "Samsung",
+    price: 25000,
+    color: "Black",
+    camera: "12mp",
+    isNew: true
+}
+
+for(const prop in mobile){
+    console.log(prop);
+    console.log(mobile[prop]);
+}
